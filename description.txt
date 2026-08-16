@@ -1,0 +1,18 @@
+Advanced Network Traffic Analyzer with Flow Tracking & Anomaly Detection
+
+Developed a professional Python-based packet analyzer using Scapy with stateful
+ TCP/UDP flow tracking, capturing layer 2-7 packet metadata including MAC addresses, 
+ IP headers, transport protocols, and application-layer data (DNS queries, HTTP requests, 
+ service identification)
+
+Implemented heuristic-based anomaly detection engine identifying port scans, SYN floods,
+ DNS/ICMP floods, and abnormal traffic patterns with severity-classified reporting, 
+ demonstrating understanding of common network attack signatures
+
+Engineered memory-efficient architecture handling 50,000+ packet captures with 
+incremental statistics computation (O(1) updates), Berkeley Packet Filter integration 
+for kernel-level filtering, and streaming PCAP analysis supporting multi-GB files
+
+Built comprehensive traffic analysis suite featuring bidirectional flow metrics 
+(duration, throughput, connection states), protocol distribution analysis, top talkers 
+identification, and multi-format export (CSV) for SOC integration and forensic investigation
