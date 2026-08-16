@@ -219,7 +219,16 @@ Install the dependency with:
 pip install -r requirements.txt
 ```
 
+## Clone the Repository
+
+Clone the project from GitHub:
+```
+git clone https://github.com/DarshanKalburgi19/Network_Analyzer.git
+
+```
+
 ## Usage
+
 
 ### Live Capture
 
